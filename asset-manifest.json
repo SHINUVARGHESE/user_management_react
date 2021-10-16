@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/user_management_react/static/css/main.77958650.chunk.css",
+    "main.js": "/user_management_react/static/js/main.bcf5b366.chunk.js",
+    "main.js.map": "/user_management_react/static/js/main.bcf5b366.chunk.js.map",
+    "runtime-main.js": "/user_management_react/static/js/runtime-main.bb43d141.js",
+    "runtime-main.js.map": "/user_management_react/static/js/runtime-main.bb43d141.js.map",
+    "static/css/2.c1256375.chunk.css": "/user_management_react/static/css/2.c1256375.chunk.css",
+    "static/js/2.0f7becec.chunk.js": "/user_management_react/static/js/2.0f7becec.chunk.js",
+    "static/js/2.0f7becec.chunk.js.map": "/user_management_react/static/js/2.0f7becec.chunk.js.map",
+    "index.html": "/user_management_react/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/user_management_react/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.77958650.chunk.css.map": "/user_management_react/static/css/main.77958650.chunk.css.map",
+    "static/js/2.0f7becec.chunk.js.LICENSE.txt": "/user_management_react/static/js/2.0f7becec.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/user_management_react/static/media/walpaper.5b0ddd5c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb43d141.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.0f7becec.chunk.js",
+    "static/css/main.77958650.chunk.css",
+    "static/js/main.bcf5b366.chunk.js"
+  ]
+}
