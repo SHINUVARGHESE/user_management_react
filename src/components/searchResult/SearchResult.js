@@ -8,7 +8,7 @@ export default function SearchResult() {
     const [user, setUser] = useState([]);
     const [dis, setDis] = useState('disabled');
     useEffect(() => {
-        axios.get('http://localhost:3001/searchUser', { params: { userName: name } }).then((response) => {
+        axios.get('http://3.23.104.74/searchUser', { params: { userName: name } }).then((response) => {
             if(response.data){
               setUser([response.data])
             }else{
@@ -21,7 +21,7 @@ export default function SearchResult() {
         const data = {
             id: e.target.name
         }
-        axios.post('http://localhost:3001/removeUser', data)
+        axios.post('http://3.23.104.74/removeUser', data)
         window.location.reload();
 
     }
