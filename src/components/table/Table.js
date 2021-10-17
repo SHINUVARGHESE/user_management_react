@@ -7,7 +7,7 @@ function Table(props) {
     const [users, setUsers] = useState([])
     const [dis, setDis] = useState('disabled')
     useEffect(() => {
-        axios.get('http://localhost:3001/allUsers').then((response) => {
+        axios.get('http://3.23.104.74/allUsers').then((response) => {
             setUsers(response.data)
         })
     }, [])
@@ -16,7 +16,7 @@ function Table(props) {
         const data = {
             id: e.target.name
         }
-        axios.post('http://localhost:3001/removeUser', data)
+        axios.post('http://3.23.104.74/removeUser', data)
         window.location.reload();
 
     }
