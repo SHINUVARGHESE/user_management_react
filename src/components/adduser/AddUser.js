@@ -28,7 +28,7 @@ function AddUser() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3001/addUser', user)
+        axios.post('http://3.23.104.74/addUser', user)
             .then(() => {
                 console.log('User Added')
             })
