@@ -37,7 +37,7 @@ function EditUser(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3001/editUser', user)
+        axios.post('http://3.23.104.74/editUser', user)
             .then(() => {
                 console.log('User Edited')
             })
